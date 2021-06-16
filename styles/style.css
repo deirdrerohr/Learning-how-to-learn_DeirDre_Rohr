@@ -9,17 +9,57 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
   /* parameters for the header section */
+}
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  width: 154px;
+  height: 31px;
+}
+.header__h1 {
+  /*top: 50%;
+  bottom: 50%;*/
+  align-content:center;
+  margin: 64px;
+  width: 730px;
+  /*vertical-align: middle;*/
+  position: absolute;
+  font-size: 102px;
+  border-color: red;
+  border-width: 1px;
+
+}
+.flex-row {
+  display: flex;
+
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  position: absolute;
+  background: #2f80ed;
+  top: 64px;
+  right: 0px;
+  z-index: -1;
+
+}
+.main-illustration {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+
 }
 
 /* including elements with key-value modifiers */
@@ -28,4 +68,10 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+div {
+  border-color: red;
+  border-width: 1px;
+
 }
