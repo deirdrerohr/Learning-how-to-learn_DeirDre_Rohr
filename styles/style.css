@@ -25,19 +25,35 @@
   left: 64px;
   width: 154px;
   height: 31px;
+  z-index: 1;
 }
 .header__h1 {
   /*top: 50%;
   bottom: 50%;*/
-  align-content:center;
-  margin: 64px;
+  left: 64px;
   width: 730px;
   /*vertical-align: middle;*/
   position: absolute;
   font-size: 102px;
-  border-color: red;
-  border-width: 1px;
+  line-height:  96px;
+  font-weight: bold;
+  z-index: 1;
+  align-self: center;
 
+}
+.header__h2 {
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  width: 388px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
+  z-index: 1;
+}
+.link {
+  text-decoration: none;
+  z-index: 1;
 }
 .flex-row {
   display: flex;
@@ -59,6 +75,7 @@
   position: absolute;
   bottom: 0px;
   right: 0px;
+  z-index: 0;
 
 }
 
