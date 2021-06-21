@@ -162,6 +162,89 @@
   font-size: 18px;
   font-size: normal;
 }
+.feynman__container {
+  height: 790px;
+}
+
+.feynman_imageblock {
+  background-image: url();
+  height: 790px;
+}
+.feynman__flex-row {
+  /*display: flex;*/
+  margin: 0;
+  height: 760px;
+  text-align: center;
+  padding-top: 0;
+  background-image: url(file:///C:/Users/deird/Projects/web_project_1/images/feynman.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: bottom left;
+
+}
+.feynman__title {
+  width: 775px;
+  position: relative;
+  font-size: 120px;
+  line-height:  1.15;
+  font-weight: bold;
+  z-index: 1;
+  justify-content: center;
+  margin-left:auto;
+  margin-right: auto;
+  text-align: center;
+
+  align-content: flex-start;
+}
+.feynman__subtitle {
+  text-align: center;
+  font-size: 36px;
+  line-height: 51px;
+  justify-content: center;
+  width: 775px;
+  text-align: match-parent;
+  margin-left:auto;
+  margin-right: auto;
+  position: relative;
+  padding-top: 70px;
+
+
+}
+.feynman__link {
+  position: absolute;
+  right: 48px;
+  align-content: center;
+  justify-content: center;
+  line-height: 51px;
+  font-size: 36px;
+  text-decoration: none;
+  z-index: 4;
+  font-weight: normal;
+}
+
+
+.feynman_image {
+  width:867px;
+  height:637px;
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  padding-top:153px;
+  z-index:-1;
+
+
+}
+/*.feynman__circle-pic {
+  height: 568px;
+  width: 568px;
+  border-radius: 50%;
+  position: absolute;
+  background: #2f80ed;
+  top: 64px;
+  right: 0px;
+  z-index: -1;
+
+}*/
 
 p {
   line-height: 34px;
