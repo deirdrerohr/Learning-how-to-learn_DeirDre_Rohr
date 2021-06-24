@@ -20,6 +20,7 @@
   margin: 0 0 100px 0;
   /* parameters for the header section */
 }
+
 .logo_place_header {
   position: absolute;
   top: 30px;
@@ -28,7 +29,7 @@
   height: 31px;
   z-index: 1;
 }
-.header__h1 {
+.header__title {
   /*top: 50%;
   bottom: 50%;*/
   left: 64px;
@@ -42,7 +43,7 @@
   align-self: center;
 
 }
-.header__h2 {
+.header__subtitle {
   position: absolute;
   bottom: 30px;
   left: 64px;
@@ -56,11 +57,6 @@
   text-decoration: none;
   z-index: 1;
 }
-.flex-row {
-  display: flex;
-
-}
-
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
   height: 568px;
@@ -70,7 +66,6 @@
   top: 64px;
   right: 0px;
   z-index: -1;
-
 }
 .main-illustration {
   position: absolute;
@@ -88,8 +83,6 @@
   border-width:1px;
   padding-top: 100px;
   z-index: 1;
-
-
 }
 .two-columns {
   display: flex;
@@ -116,26 +109,21 @@
 }
 .digits {
   padding: 40px 0;
-
+  text-align: center;
 
 }
-.digits__flex {
-  text-align:center;
+.section-title {
+  line-height: 1.15;
+  font-size: 60px;
+  font-style: bold;
 }
-
-  .digits__title {
-    line-height: 1.15;
-    font-size: 60px;
-    font-style: bold;
-  }
-
-  .digits__subtitle {
-    line-height: 34px;
+.section-subtitle {
+  line-height: 34px;
     font-size:24px;
     font-style: normal;
-  }
+}
 .table {
-
+  text-align:center;
   list-style-type: none;
   margin: auto;
   padding:60px 0;
@@ -146,20 +134,19 @@
   align-content: center;
   gap: 20px;
   padding: 80px 0 0;
-}
-.cell {
- text-align: left;
- width: 250px;
 
 }
-.heading {
+.table__cell {
+  text-align: left;
+ width: 250px;
+}
+.table__heading {
+  color: #000;
   line-height: 1.15;
   font-size: 24px;
   font-style: bold;
-
-
 }
-.text {
+.table__text {
   line-height: 1.15;
   font-size: 24px;
   font-style: bold;
@@ -174,14 +161,8 @@
   background-attachment: scroll;
   background-position: bottom left;
   position: relative;
-
-
 }
 
-.feynman__flex-row {
-  /*display: flex;*/
-
-}
 .feynman__title {
   width: 775px;
   position: relative;
@@ -207,8 +188,6 @@
   margin-right: auto;
   position: relative;
   padding-top: 70px;
-
-
 }
 .feynman__link {
   position: absolute;
@@ -225,7 +204,6 @@
   height: 50%;
 }
 
-
 .feynman_image {
   width:867px;
   height:637px;
@@ -234,7 +212,80 @@
   left: 0px;
   padding-top:153px;
   z-index:-1;
+}
+.kaufman {
+  background-color: #1f1f1f;
+  color: #f2f2f2;
+  overflow: hidden;
+}
+.kaufman__image_triangle {
+  position: absolute;
+  right: -210px;
+height: 877px;
+z-index: 0;
+}
+.section-title_theme_dark {
+  padding: 90px 0 20px 0;
+  margin: auto;
+  color: #f2f2f2;
+  line-height: 1.15;
+    font-size: 60px;
+    font-style: bold;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 60%;
+    z-index: 2;
+}
 
+.section-subtitle_theme_dark {
+  margin: auto;
+  color: #f2f2f2;
+  line-height: 34px;
+  font-size:24px;
+  font-style: normal;
+  text-align: center;
+  align-self: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  z-index: 3;
+}
+
+.table_theme_dark {
+  padding: 80px 0 90px 0;
+  margin: auto;
+  color: white;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 3;
+}
+
+.table__cell_theme_dark {
+  color: white;
+  text-align: left;
+ width: 200px;
+ padding-top: 80px;
+ z-index: 3;
+
+}
+.table__heading_theme_dark{
+  color: #f2f2f2;
+  z-index: 3;
+}
+.table__heading {
+  color: #000000;/* change this to dark gray*/
+  line-height: 1.15;
+  font-size: 24px;
+  font-style: bold;
+
+}
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-style: normal;
 
 }
 /*.feynman__circle-pic {
@@ -248,6 +299,7 @@
   z-index: -1;
 
 }*/
+/*
 .kaufman{
   margin:0;
   background-color: #1f1f1f;
@@ -258,7 +310,7 @@
 .kaufman__image_triangle {
   position: absolute;
   right: -210px;
-  /*overflow: hidden;*/
+
   background-image: url(../images/kaufman-triangle.svg);
 height: 877px;
 }
@@ -306,8 +358,7 @@ height: 877px;
 .table-container_theme_dark {
   margin: 0;
   color: white;
-  /*z-index: 4;
-  overflow: hidden;*/
+
 
 
 }
@@ -323,7 +374,7 @@ height: 877px;
   justify-content: space-between;
   align-content: center;
 
-  /*gap: 20px;*/
+
 
 
 }
@@ -348,6 +399,7 @@ height: 877px;
   font-style: normal;
 
 }
+
 /*.footer {
   display: flex;
   flex-direction: row;
