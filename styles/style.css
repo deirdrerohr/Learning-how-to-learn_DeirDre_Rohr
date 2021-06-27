@@ -129,7 +129,7 @@
   justify-content: space-between;
   align-content: center;
   gap: 20px;
-  padding: 80px 0 0;
+  /*padding: 80px 0 0;*/
 
 }
 .table__cell {
@@ -174,7 +174,7 @@
   align-content: flex-start;
 }
 .feynman__subtitle {
-  text-align: center;
+  /*text-align: center;*/
   font-size: 36px;
   line-height: 51px;
   justify-content: center;
@@ -267,17 +267,6 @@ z-index: 0;
 .table__heading_theme_dark{
   color: #f2f2f2;
   z-index: 3;
-}
-.table__heading {
-  color: #000000;
-  line-height: 1.15;
-  font-size: 24px;
-  font-style: bold;
-}
-.table__text {
-  line-height: 1.2;
-  font-size: 18px;
-  font-style: normal;
 }
 
 .footer {
