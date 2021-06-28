@@ -12,13 +12,14 @@
 
 
 .header {
+  background-color: #f2f2f2;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   display:flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0 0 100px 0;
+  /*margin: 0 0 100px 0;*/
   position: relative;
   /* parameters for the header section */
 }
@@ -29,18 +30,19 @@
   left: 64px;
   width: 154px;
   height: 31px;
-  z-index: 1;
+  z-index: 2;
 }
 .header__title {
+position: absolute;
   /*top: 50%;
   bottom: 50%;*/
-  left: 64px;
+ margin-left: 64px;
   width: 730px;
   /*vertical-align: middle;*/
    font-size: 102px;
   line-height:  96px;
   font-weight: bold;
-  z-index: 1;
+  z-index: 2;
   align-self: center;
 
 }
@@ -52,11 +54,11 @@
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
-  z-index: 1;
+  z-index: 2;
 }
 .header__link {
   text-decoration: none;
-  z-index: 1;
+  z-index: 2;
 }
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
@@ -64,33 +66,34 @@
   width: 568px;
   position: absolute;
   background: #2f80ed;
-  top: 64px;
+  margin-top: 64px;
   right: 0px;
-  z-index: -1;
+  z-index: 0;
 }
 .header__main-illustration {
+  width: 765px;
+  height: 608px;
   position: absolute;
   bottom: 0px;
   right: 0px;
-  z-index: 0;
+  z-index: 01;
 
 }
 
 
 .two-columns {
-  /*width: 100vw;*/
+  margin: 0 auto;
+  width: 80%;
   display: flex;
-  justify-content: space-between;
-  align-content: center;
-  margin: 100px 0 100px 0;
-  /*border-width:1px;*/
-  padding-top: 100px;
+  justify-content: space-around;
+  align-content:space-between;
+  padding: 100px 0 0 0;
   z-index: 1;
   min-width: 784px;
-
 }
 
 .two-columns__brief {
+  margin: 0px;
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
@@ -99,10 +102,15 @@
 }
 
 .two-columns__main-text {
-  width: 80%;
+  width:80%;
+
 }
 .two-columns__paragraph {
-
+  margin: 0;
+  padding-bottom: 30px;
+}
+.two-columns__paragraph:last-child {
+  padding-bottom: 0;
 }
 .digits {
   padding: 100px 0 100px 0;
@@ -110,22 +118,24 @@
 
 }
 .section-title {
-  padding: bottom;
+  margin: 0;
   line-height: 1.15;
   font-size: 60px;
-  font-style: bold;
+  font-weight: bold;
 }
 .section-subtitle {
-  padding-bottom: 20px;
+  margin: 0;
+  padding-top: 20px;
   line-height: 34px;
     font-size:24px;
-    font-style: normal;
+    font-weight: normal;
 }
 .table {
   text-align:center;
   list-style-type: none;
-  margin: auto;
-  padding:60px 0;
+  margin: 0 auto;
+  padding-inline-start: 0;
+  /*padding-top: 60px 0;*/
   width: 1100px;
   display: flex;
   flex-wrap: wrap;
@@ -136,23 +146,28 @@
 
 }
 .table__cell {
-  padding-top: 60px;
+  padding: 60px 0 0 0;
   text-align: left;
  width: 250px;
 }
 .table__heading {
+  margin: 0px;
+  padding-bottom: 20px;
   color: #000;
   line-height: 1.15;
   font-size: 24px;
-  font-style: bold;
+  font-weight: bold;
 
 }
 .table__text {
+  margin: 0px;
+  padding-bottom: 20px;
   line-height: 1.15;
   font-size: 18px;
-  font-style: normal;
+  font-weight: normal;
 }
 .feynman {
+  background-color: #f2f2f2;
   margin: 0;
   min-height: 790px;
   text-align: center;
@@ -165,6 +180,8 @@
 }
 
 .feynman__title {
+  margin: 0 auto;
+  padding-top: 100px;
   width: 775px;
   position: relative;
   font-size: 120px;
@@ -172,10 +189,7 @@
   font-weight: bold;
   z-index: 1;
   justify-content: center;
-  margin-left:auto;
-  margin-right: auto;
   text-align: center;
-
   align-content: flex-start;
 }
 .feynman__subtitle {
@@ -217,19 +231,23 @@
   color: #f2f2f2;
   position: relative;
   overflow: hidden;
-  z-index: 0;
+
+  z-index: 1;
 }
 .kaufman__image_triangle {
+  margin: 0 auto;
+  padding: 0;
   position: absolute;
   right: -210px;
 height: 877px;
 width: 877px;
-z-index: 1;
+z-index: 2;
 
 }
 .section-title_theme_dark {
-  padding: 90px 0 20px 0;
-  margin: auto;
+  width: 60%;
+  padding: 90px 0 0 0;
+  margin: 0 auto;
   color: #f2f2f2;
   line-height: 1.15;
     font-size: 60px;
@@ -238,27 +256,27 @@ z-index: 1;
     align-self: center;
     justify-content: center;
     flex-wrap: wrap;
-    width: 60%;
-    z-index: 2;
-
+    z-index: 3;
 }
 
 .section-subtitle_theme_dark {
+  width: 60%;
+  padding-bottom: 0px;
   margin: auto;
   color: #f2f2f2;
   line-height: 34px;
   font-size:24px;
-  font-style: normal;
+  font-weight: normal;
   text-align: center;
   align-self: center;
   justify-content: center;
   flex-wrap: wrap;
-  z-index: 2;
+  z-index: 3;
 
 }
 
 .table_theme_dark {
-  padding: 80px 0 90px 0;
+  padding: 0 0 90px 0;
   margin: auto;
   color: white;
     text-align: center;
@@ -270,15 +288,26 @@ z-index: 1;
 }
 
 .table__cell_theme_dark {
+  margin: 0px;
   color: white;
   text-align: left;
  width: 200px;
  padding-top: 80px;
- z-index: 2;
+ z-index: 3;
 }
-.table__heading_theme_dark{
+.table__heading_theme_dark {
+  margin: 0px;
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: bold;
   color: #f2f2f2;
-  z-index: 2;
+  z-index: 3;
+}
+.table__text_theme_dark {
+  line-height: 1.2;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
 
 }
 
