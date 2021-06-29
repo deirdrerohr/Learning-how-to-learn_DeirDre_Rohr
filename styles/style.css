@@ -33,12 +33,11 @@
   z-index: 2;
 }
 .header__title {
-position: absolute;
-  /*top: 50%;
-  bottom: 50%;*/
+
+align-content: center;
  margin-left: 64px;
   width: 730px;
-  /*vertical-align: middle;*/
+
    font-size: 102px;
   line-height:  96px;
   font-weight: bold;
@@ -119,7 +118,7 @@ position: absolute;
 }
 .section-title {
   margin: 0;
-  line-height: 1.15;
+  line-height: 69px;
   font-size: 60px;
   font-weight: bold;
 }
@@ -162,7 +161,7 @@ position: absolute;
 .table__text {
   margin: 0px;
   padding-bottom: 20px;
-  line-height: 1.15;
+  line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
 }
@@ -196,6 +195,7 @@ position: absolute;
   /*text-align: center;*/
   font-size: 36px;
   line-height: 51px;
+  font-weight: normal;
   justify-content: center;
   width: 775px;
   text-align: match-parent;
@@ -216,15 +216,6 @@ position: absolute;
   height: 50%;
 }
 
-.feynman_image {
-  width:867px;
-  height:637px;
-  position: relative;
-  bottom: 0px;
-  left: 0px;
-  padding-top:153px;
-  z-index:-1;
-}
 .kaufman {
 
   background-color: #1f1f1f;
@@ -235,13 +226,14 @@ position: absolute;
 }
 .kaufman__triangle {
   margin: auto;
-  height: 877px;
-  width: 877px;
+  height: 636px;
+  width: 660px;
   position: absolute;
-  background-image: url("../images/kaufman-triangle.svg");
-  background-repeat: no-repeat;
-  right: -210px;
-  /*to match the brief visually, it should probably be more like "right: -310" is there a typo on the brief?*/
+  /*background-image: url("../images/kaufman-triangle.svg");
+  background-repeat: no-repeat;*/
+  right: -124px;
+  z-index: 1;
+
 
 
 }
@@ -251,7 +243,7 @@ position: absolute;
   padding: 90px 0 0 0;
   margin: 0 auto;
   color: #f2f2f2;
-  line-height: 1.15;
+  line-height: 69px;
     font-size: 60px;
     font-style: bold;
     text-align: center;
@@ -300,6 +292,7 @@ position: absolute;
 }
 .table__heading_theme_dark {
   margin: 0px;
+  padding-bottom: 20px;
   font-size: 24px;
   line-height: 1.15;
   font-weight: bold;
@@ -311,6 +304,7 @@ position: absolute;
   font-size: 18px;
   margin: 0;
   padding: 0;
+  font-weight: normal;
 
 }
 
@@ -362,7 +356,7 @@ position: absolute;
 .footer__author:last-child {
   padding-bottom: 16px;
 }
-.footer__column_content_info {
+.footer__column_content_about {
   list-style: none;
   margin: 0;
   color: #f2f2f2;
@@ -392,12 +386,13 @@ position: absolute;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  padding: 0 0 16px 0;
 }
 
-.footer__column-links:last-child {
+/*.footer__column-links:last-child {
   padding-bottom: 16px;
 
-}
+}*/
 
 .footer__social-icon {
   list-style: none;
