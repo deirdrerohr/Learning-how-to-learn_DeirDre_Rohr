@@ -102,6 +102,8 @@ align-content: center;
 
 .two-columns__main-text {
   width:80%;
+  line-height: 34px;
+  font-size: 24px;
 
 }
 .two-columns__paragraph {
@@ -229,7 +231,7 @@ align-content: center;
   height: 636px;
   width: 660px;
   position: absolute;
-  /*background-image: url("../images/kaufman-triangle.svg");
+  /*background-image: url("./images/kaufman-triangle.svg");
   background-repeat: no-repeat;*/
   right: -124px;
   z-index: 1;
