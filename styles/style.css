@@ -226,25 +226,27 @@ position: absolute;
   z-index:-1;
 }
 .kaufman {
-  margin: 0 auto;
+
   background-color: #1f1f1f;
   color: #f2f2f2;
   position: relative;
   overflow: hidden;
 
-  z-index: 1;
 }
-.kaufman__image_triangle {
-  margin: 0 auto;
-  padding: 0;
+.kaufman__triangle {
+  margin: auto;
+  height: 877px;
+  width: 877px;
   position: absolute;
+  background-image: url("../images/kaufman-triangle.svg");
+  background-repeat: no-repeat;
   right: -210px;
-height: 877px;
-width: 877px;
-z-index: 2;
+  /*to match the brief visually, it should probably be more like "right: -310" is there a typo on the brief?*/
+
 
 }
 .section-title_theme_dark {
+  position: relative;
   width: 60%;
   padding: 90px 0 0 0;
   margin: 0 auto;
@@ -260,6 +262,7 @@ z-index: 2;
 }
 
 .section-subtitle_theme_dark {
+  position: relative;
   width: 60%;
   padding-bottom: 0px;
   margin: auto;
@@ -349,11 +352,15 @@ z-index: 2;
 }
 
 .footer__author {
+  margin: 0;
   padding: 18px 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
   align-items: flex-end;
+}
+.footer__author:last-child {
+  padding-bottom: 16px;
 }
 .footer__column_content_info {
   list-style: none;
@@ -366,6 +373,7 @@ z-index: 2;
 
 }
 .footer__column-heading {
+  text-decoration: none;
   line-height: 45px;
   font-size: 18px;
   font-weight: bold;
@@ -381,13 +389,14 @@ z-index: 2;
 .footer__column-links {
   color: #f2f2f2;
   text-decoration: none;
-}
-.footer__column-link {
-  text-decoration: none;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  color: #f2f2f2;
+}
+
+.footer__column-links:last-child {
+  padding-bottom: 16px;
+
 }
 
 .footer__social-icon {
@@ -409,7 +418,7 @@ div {
 }
 a {
   color: #2f80ed;
-
+  text-decoration: none;
 }
 
 
