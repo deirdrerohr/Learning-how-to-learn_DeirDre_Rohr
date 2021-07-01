@@ -23,6 +23,8 @@
 }
 .logo {
   margin: 0;
+  height: 35px;
+  width: 183px;
 }
 
 .logo_place_header {
@@ -318,6 +320,8 @@
 }
 .footer__column {
   margin: 0;
+
+
 }
 .footer__columns {
   display: flex;
@@ -352,6 +356,9 @@
   padding-bottom: 16px;
 }
 .footer__column_content_about {
+  display: flex;
+  flex-direction:column;
+  justify-content: flex-start;
   padding: 0;
   list-style: none;
   margin: 0;
@@ -362,6 +369,9 @@
   height: 35px;
 }
 .footer__column-heading {
+  margin: 0;
+
+
   /*text-decoration: none;*/
   line-height: 45px;
   font-size: 18px;
@@ -369,6 +379,8 @@
   padding-bottom: 20px;
 }
 .footer__list {
+  margin: 0;
+  padding: 0;
   list-style: none;
 
 }
