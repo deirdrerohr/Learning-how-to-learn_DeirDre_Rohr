@@ -8,25 +8,22 @@
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
-
 .header {
+  margin: auto;
   background-color: #f2f2f2;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  /*margin: 0 0 100px 0;*/
+  flex-direction: column;
+  justify-content: center;
   position: relative;
-  /* parameters for the header section */
 }
 .logo {
   margin: 0;
   height: 35px;
   width: 183px;
 }
-
 .logo_place_header {
   position: absolute;
   top: 30px;
@@ -37,16 +34,12 @@
 }
 .header__title {
   margin: 0;
-  display: flex;
-  /*align-content: center;*/
   margin-left: 64px;
   width: 730px;
-align-items: center;
   font-size: 102px;
   line-height: 96px;
   font-weight: bold;
   z-index: 2;
-
 }
 .header__subtitle {
   margin: 0;
@@ -82,18 +75,15 @@ align-items: center;
   right: 0px;
   z-index: 01;
 }
-
 .two-columns {
   margin: 0 auto;
   width: 80%;
   display: flex;
   justify-content: space-between;
-  /*align-content:space-between;*/
   padding: 100px 0 0 0;
   z-index: 1;
   min-width: 784px;
 }
-
 .two-columns__brief {
   margin: 0px;
   width: 175px;
@@ -102,7 +92,6 @@ align-items: center;
   color: #2f80ed;
   font-weight: normal;
 }
-
 .two-columns__main-text {
   width: 80%;
   line-height: 34px;
@@ -141,15 +130,12 @@ align-items: center;
   padding: 0;
   list-style-type: none;
   text-align: center;
-  /*padding-inline-start: 0;*/
-  /*padding-top: 60px 0;*/
   width: 1100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: center;
   gap: 0px 20px;
-  /*padding: 80px 0 0;*/
 }
 .table__cell {
   padding: 60px 0 0 0;
@@ -186,7 +172,6 @@ align-items: center;
   background-position: bottom left;
   position: relative;
 }
-
 .feynman__title {
   margin: 0 auto;
   padding-top: 100px;
@@ -224,7 +209,6 @@ align-items: center;
   font-weight: normal;
   color: #2f80ed;
 }
-
 .kaufman {
   background-color: #1f1f1f;
   color: #f2f2f2;
@@ -257,53 +241,37 @@ align-items: center;
   flex-wrap: wrap;
   z-index: 3;
 }
-
 .section-subtitle_theme_dark {
   position: relative;
   width: 60%;
   padding-bottom: 0px;
   margin: auto;
   color: #f2f2f2;
-  /*line-height: 34px;*/
-  /*font-size: 24px;*/
-  /*font-weight: normal;*/
   text-align: center;
   align-self: center;
   justify-content: center;
   flex-wrap: wrap;
   z-index: 3;
 }
-
 .table_theme_dark {
   padding: 0 0 90px 0;
   margin: auto;
   color: white;
   text-align: center;
   align-self: center;
-
   flex-wrap: wrap;
   z-index: 2;
-
 }
 
 .table__cell_theme_dark {
   margin: 0px;
-
   color: white;
-  /*text-align: left;*/
   width: 200px;
   padding-top: 80px;
   z-index: 3;
-
 }
 .table__heading_theme_dark {
   margin: 0px;
-  /*padding-bottom: 20px;*/
-  /*display: flex;*/
-
-  /*font-size: 24px;
-  line-height: 1.15;
-  font-weight: bold;*/
   color: #f2f2f2;
   z-index: 3;
 }
@@ -314,9 +282,7 @@ align-items: center;
   padding: 0;
   font-weight: normal;
   display: flex;
-  /*flex-wrap: flex;*/
 }
-
 .footer {
   margin: 0 auto;
   display: flex;
@@ -329,8 +295,6 @@ align-items: center;
 }
 .footer__column {
   margin: 0;
-
-
 }
 .footer__columns {
   display: flex;
@@ -348,8 +312,6 @@ align-items: center;
   line-height: 25px;
   font-weight: normal;
 }
-
-
 .footer__author {
   margin: 0;
   padding: 18px 0;
@@ -376,9 +338,6 @@ align-items: center;
 }
 .footer__column-heading {
   margin: 0;
-
-
-  /*text-decoration: none;*/
   line-height: 45px;
   font-size: 18px;
   font-weight: bold;
@@ -392,7 +351,6 @@ align-items: center;
 }
 
 .footer__column_content_social {
- /* margin: 0 auto;*/
   padding: 0;
   align-content: flex-start;
   list-style: none;
@@ -406,27 +364,9 @@ align-items: center;
   font-weight: normal;
   padding: 0 0 16px 0;
 }
-
-/*.footer__column-links:last-child {
-  padding-bottom: 16px;
-
-}*/
-
 .footer__social-icon {
   padding-right: 10px;
   list-style: none;
   font-size: 16px;
 }
 
-/*p {
-  line-height: 34px;
-  font-size: 25px;
-  margin: 0 0 30px 0;
-  }
-*/
-
-/*a {
-  color: #2f80ed;
-  text-decoration: none;
-}
-*/
