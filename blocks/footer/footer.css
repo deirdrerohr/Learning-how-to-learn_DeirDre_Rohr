@@ -1,5 +1,6 @@
+@import url(__author/footer__author_last-child.css);
 @import url(__author/footer__author.css);
-@import url(__author_last-child/footer__author_last-child.css);
+
 @import url(__column/_content/footer__column_content_about.css);
 @import url(__column/_content/footer__column_content_copyright.css);
 @import url(__column/_content/footer__column_content_social.css);
