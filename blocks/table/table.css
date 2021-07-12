@@ -1,3 +1,9 @@
+@import url(__cell/_theme/table__cell_theme_dark.css);
+@import url(__heading/_theme/table__heading_theme_dark.css);
+@import url(__text/table__text.css);
+@import url(__text_last-child/table__text_last-child.css);
+@import url(_theme/table_theme_dark.css);
+
 .table {
     margin: 0 auto;
     padding: 0;
