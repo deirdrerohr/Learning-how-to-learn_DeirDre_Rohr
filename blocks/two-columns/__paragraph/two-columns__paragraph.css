@@ -3,3 +3,6 @@
     margin: 0;
     padding-bottom: 30px;
   }
+  .two-columns__paragraph:last-child {
+    padding-bottom: 0;
+  }
