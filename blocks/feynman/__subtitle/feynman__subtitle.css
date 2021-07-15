@@ -10,4 +10,5 @@
     margin-right: auto;
     position: relative;
     padding-top: 70px;
+    z-index: 1;
   }
