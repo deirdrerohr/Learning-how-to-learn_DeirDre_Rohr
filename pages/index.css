@@ -16,7 +16,6 @@
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/rotation/rotation.css);
 
-
 /*two-columns*/
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
@@ -25,9 +24,31 @@
 @import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
+/*cards <section=techniques>*/
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__description/cards__description.css);
 
+/*video*/
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/video/__iframes/video__iframes.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
 
+/*oakley*/
+@import url(../blocks/two-columns/two-columns.css);
+@import url(../blocks/oakley/oakley.css);
 
+/*feynman*/
+@import url(../blocks/feynman/feynman.css);
+@import url(../blocks/feynman/__link/feynman__link.css);
+@import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
+@import url(../blocks/feynman/__title/feynman__title.css);
+@import url(../blocks/feynman/feynman__image.css);
 
 
 /*digits block*/
@@ -39,14 +60,16 @@
 @import url(../blocks/table/__heading/table__heading.css);
 @import url(../blocks/table/__text/table__text.css);
 
-
-/*feynman*/
-@import url(../blocks/feynman/feynman.css);
-@import url(../blocks/feynman/__link/feynman__link.css);
-@import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
-@import url(../blocks/feynman/__title/feynman__title.css);
-@import url(../blocks/feynman/feynman__image.css);
-
+/*khan*/
+@import url(../blocks/khan/__container/container.css);
+@import url(../blocks/khan/__author/author.css);
+@import url(../blocks/khan/__title/title.css);
+@import url(../blocks/khan/__quote/quote.css);
+@import url(../blocks/khan/__quote-author/quote-author.css);
+@import url(../blocks/khan/__quote-author-subline/quote-author-subline.css);
+@import url(../blocks/khan/__book-container/book-container.css);
+@import url(../blocks/khan/__book-pic/book-pic.css);
+@import url(../blocks/khan/__buy-link/buy-link.css);
 
 /*kaufman*/
 @import url(../blocks/kaufman/kaufman.css);
@@ -58,6 +81,11 @@
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 @import url(../blocks/rotation/rotation.css);
 
+/*resources*/
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/resources/__logo-zone/logo-zone.css);
+@import url(../blocks/resources/__logo/logo.css);
 
 /*footer*/
 @import url(../blocks/footer/footer.css);
