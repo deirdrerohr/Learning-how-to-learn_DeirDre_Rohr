@@ -5,11 +5,11 @@
     line-height: 51px;
     font-size: 36px;
     text-decoration: none;
-    z-index: 1;
+    /*z-index: 1;*/
     font-weight: normal;
     color: #2f80ed;
     transition: 0.5s;
   }
-  .feynman__link:hover {
+.feynman__link:hover {
     opacity: 50%;
   }

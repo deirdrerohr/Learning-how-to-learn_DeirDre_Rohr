@@ -1,7 +1,7 @@
 
 .header__link {
     text-decoration: none;
-    z-index: 2;
+    /*z-index: 2;*/
     color: #2f80ed;
     transition: 0.5s;
   }
