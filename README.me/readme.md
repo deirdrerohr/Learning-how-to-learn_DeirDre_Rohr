@@ -15,6 +15,7 @@
 8. Making the most of your code review opportunities
 9. Embedding content
 10. Debugging
+11. The value of a good design brief
 
 ## Future Features
 
