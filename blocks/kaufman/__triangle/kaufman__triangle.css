@@ -1,12 +1,10 @@
 .kaufman__triangle {
-    margin: 0;
-    height: 636px;
-    width: 660px;
-    position: absolute;
-    background-repeat: no-repeat;
-    right: -124px;
-    top:0px;
-    z-index: -1;
+  margin: 0;
+  height: 636px;
+  width: 660px;
+  position: absolute;
+  background-repeat: no-repeat;
+  right: -124px;
+  top: 0px;
+  z-index: -1;
 }
-
-

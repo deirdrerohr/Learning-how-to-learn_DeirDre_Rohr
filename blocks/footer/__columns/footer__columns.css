@@ -1,7 +1,7 @@
 .footer__columns {
-    display: flex;
-    margin: 0 auto;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 90%;
-  }
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+}

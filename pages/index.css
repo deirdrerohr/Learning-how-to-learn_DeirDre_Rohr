@@ -50,7 +50,6 @@
 @import url(../blocks/feynman/__title/feynman__title.css);
 @import url(../blocks/feynman/__image/feynman__image.css);
 
-
 /*digits block*/
 @import url(../blocks/digits/digits.css);
 @import url(../blocks/section-title/section-title.css);
@@ -91,8 +90,6 @@
 /*footer*/
 @import url(../blocks/footer/footer.css);
 
-
-
 /*logo*/
 /*@import url(../blocks/logo/logo.css);*/
 @import url(../blocks/logo/_place/logo_place_footer.css);
@@ -101,18 +98,11 @@
 @import url(../blocks/footer/__column/_content/footer__column_content_about.css);
 @import url(../blocks/footer/__column/_content/footer__column_content_social.css);
 @import url(../blocks/footer/__author/footer__author.css);
-@import url(../blocks/footer/__author/footer__author_last-child.css);
-@import url(../blocks/footer/__column-heading/column_heading.css);
+/*@import url(../blocks/footer/__author/footer__author_last-child.css);*/
+@import url(../blocks/footer/__column-heading/column-heading.css);
 @import url(../blocks/footer/__list/footer__list.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
-
-
-
-
-
-
-
 
 /*delete??
 @import url(../blocks/section/section.css);
@@ -128,5 +118,3 @@
 
 /*text
 @import url(__text/table__text.css);*/
-
-

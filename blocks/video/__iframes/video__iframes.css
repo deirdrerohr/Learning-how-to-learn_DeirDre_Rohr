@@ -1,11 +1,12 @@
 .video__iframes {
-  margin: auto;
+  margin-top: -70px;
   position: relative;
   padding-top: 50px;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 20px;
   overflow: visible;
-  bottom:-70px;
+  bottom: -70px;
   z-index: 1;
 }

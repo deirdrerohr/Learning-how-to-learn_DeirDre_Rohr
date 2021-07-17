@@ -1,9 +1,9 @@
 .table_theme_dark {
-    padding: 0 0 90px 0;
-    margin: auto;
-    color: white;
-    text-align: center;
-    align-self: center;
-    flex-wrap: wrap;
-    z-index: 2;
-  }
+  padding: 0 0 90px 0;
+  margin: auto;
+  color: white;
+  text-align: center;
+  align-self: center;
+  flex-wrap: wrap;
+  z-index: 2;
+}
